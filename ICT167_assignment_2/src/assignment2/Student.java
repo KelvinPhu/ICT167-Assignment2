@@ -66,15 +66,15 @@ public class Student {
 	}
 	
 	// Equals method to compare two student objects based on student number
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-        if (obj == null || getClass() != obj.getClass()) {
-            return false;
-        }
-        Student otherStudent = (Student) obj;
-        return this.studentNumber == otherStudent.studentNumber;
-    }
+    	@Override
+	public boolean equals(Object obj){
+		if(this == obj){
+			return true;
+		}
+		if(obj == null || getClass() != obj.getClass()){
+			return false;
+		}
+		Student otherStudent =  (Student) obj;
+		return this.studentNumber == 
+	}
 }

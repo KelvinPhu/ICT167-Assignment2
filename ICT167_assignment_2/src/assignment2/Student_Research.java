@@ -36,7 +36,7 @@ public class Student_Research extends Student {
 		// TODO Auto-generated constructor stub
 	}
 
-	//getter & setter
+	// getter & setter
 	public String getEnrolmentType() {
 		return enrolmentType;
 	}
@@ -53,6 +53,7 @@ public class Student_Research extends Student {
 	public void setResearch(Research research) {
 		this.research = research;
 	}
+	
 
 	// report grade
 	public void reportGrade() {

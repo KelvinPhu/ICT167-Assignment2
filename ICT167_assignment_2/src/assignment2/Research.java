@@ -20,14 +20,14 @@ package assignment2;
 
 public class Research extends Unit {
 	private int proposalMark;
-    private int finalDissertationMark;
+    	private int finalDissertationMark;
 
-    // constructor
-    public Research() {
-        super("R");
-    }
+    	// constructor
+    	public Research() {
+        	super("R");
+    	}
     
-    public Research(String enrolmentType) {
+    	public Research(String enrolmentType) {
 		super(enrolmentType);
 		// TODO Auto-generated constructor stub
 	}
@@ -39,41 +39,41 @@ public class Research extends Unit {
 	}
 
 	// Getters and Setters
-    public int getProposalMark() {
-        return proposalMark;
-    }
+    	public int getProposalMark() {
+        	return proposalMark;
+    	}
 
-    public void setProposalMark(int proposalMark) {
-        this.proposalMark = proposalMark;
-    }
+    	public void setProposalMark(int proposalMark) {
+        	this.proposalMark = proposalMark;
+    	}
 
-    public int getFinalDissertationMark() {
-        return finalDissertationMark;
-    }
+    	public int getFinalDissertationMark() {
+        	return finalDissertationMark;
+    	}
 
-    public void setFinalDissertationMark(int finalDissertationMark) {
-        this.finalDissertationMark = finalDissertationMark;
-    }
+    	public void setFinalDissertationMark(int finalDissertationMark) {
+        	this.finalDissertationMark = finalDissertationMark;
+    	}
 
-    // Method to calculate overall mark
-    public double overallMark() {
-        return (proposalMark * 0.35) + (finalDissertationMark * 0.65);
-    }
+    	// Method to calculate overall mark
+    	public double overallMark() {
+        	return (proposalMark * 0.35) + (finalDissertationMark * 0.65);
+    	}
 
-    // Method to determine the final grade
-    public String finalGrade() {
-        double overallMark = overallMark();
-        if (overallMark >= 80) {
-            return "HD";
-        } else if (overallMark >= 70) {
-            return "D";
-        } else if (overallMark >= 60) {
-            return "C";
-        } else if (overallMark >= 50) {
-            return "P";
-        } else {
-            return "N";
-        }
-    }
+    	// Method to determine the final grade
+    	public String finalGrade() {
+        	double overallMark = overallMark();
+        	if (overallMark >= 80) {
+            		return "HD";
+        	} else if (overallMark >= 70) {
+            		return "D";
+        	} else if (overallMark >= 60) {
+            		return "C";
+        	} else if (overallMark >= 50) {
+            		return "P";
+        	} else {
+            		return "N";
+        	}
+    	}
 	
 }

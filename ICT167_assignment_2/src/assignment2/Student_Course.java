@@ -50,11 +50,11 @@ public class Student_Course extends Student {
 	}
 
 	// Grade report (override from the base class)
-    @Override
-    public void reportGrade() {
-        System.out.println("C " +
-                " Name: " + getFirstName() + " " + getLastName() +
-                " Student number: " + getStudentNumber() +
-                " Enrolment Type: " + enrolmentType);
-    }
+        @Override
+        public void reportGrade() {
+        	System.out.println("C " +
+	                " Name: " + getFirstName() + " " + getLastName() +
+	                " Student number: " + getStudentNumber() +
+	                " Enrolment Type: " + enrolmentType);
+    	}
 }

@@ -94,16 +94,16 @@ public class Unit_Course extends Unit {
 	public String finalGrade() {
 		double overallMark = overallMark();
 		if (overallMark >= 80) {
-            return "HD";
-        } else if (overallMark >= 70) {
-            return "D";
-        } else if (overallMark >= 60) {
-            return "C";
-        } else if (overallMark >= 50) {
-            return "P";
-        } else {
-            return "N";
-        }
+	            return "HD";
+	        } else if (overallMark >= 70) {
+	            return "D";
+	        } else if (overallMark >= 60) {
+	            return "C";
+	        } else if (overallMark >= 50) {
+	            return "P";
+	        } else {
+	            return "N";
+	        }
 	}
 	
 	// Grade report (override from the base class)
